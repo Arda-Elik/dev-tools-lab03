@@ -1,0 +1,20 @@
+2026-11-10 08:00:01 INFO  [main] Starting legacy-service on port 8080
+2026-11-10 08:00:02 WARN  [config] DEBUG mode is enabled in production!
+2026-11-10 08:00:05 INFO  [db] Connected to PostgreSQL database (pool_size=10)
+2026-11-10 08:01:12 INFO  [auth] User 'alice' logged in from 10.0.0.12
+2026-11-10 08:02:44 INFO  [orders] Fetched 14 orders for user 'alice'
+2026-11-10 08:05:10 WARN  [auth] Failed login attempt for user 'admin' from 192.168.1.50
+2026-11-10 08:05:12 ERROR [auth] Invalid password for user 'admin' from 192.168.1.50
+2026-11-10 08:05:15 ERROR [auth] Invalid password for user 'admin' from 192.168.1.50
+2026-11-10 08:05:18 ERROR [auth] Account lockout triggered for IP 192.168.1.50
+2026-11-10 08:06:00 INFO  [auth] User 'bob' logged in from 172.16.0.5
+2026-11-10 08:07:22 INFO  [orders] Created order #1042 for user 'bob'
+2026-11-10 08:10:05 WARN  [rate_limit] High request rate detected from 192.168.1.50
+2026-11-10 08:10:06 ERROR [api] Unhandled exception in /api/v1/login from 192.168.1.50
+2026-11-10 08:11:30 INFO  [health] Health check OK (10.0.0.1)
+2026-11-10 08:12:45 INFO  [auth] User 'charlie' logged in from 10.0.0.12
+2026-11-10 08:14:19 ERROR [db] Connection timeout while processing request from 192.168.1.50
+2026-11-10 08:14:20 ERROR [api] HTTP 500 Internal Server Error returned to 192.168.1.50
+2026-11-10 08:15:00 INFO  [health] Health check OK (10.0.0.1)
+2026-11-10 08:18:11 INFO  [orders] User 'alice' logged out
+2026-11-10 08:20:00 INFO  [main] Daily log rotation check completed
