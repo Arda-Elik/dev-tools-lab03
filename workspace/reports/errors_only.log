@@ -1,0 +1,6 @@
+2026-11-10 08:05:12 ERROR [auth] Invalid password for user 'admin' from 192.168.1.50
+2026-11-10 08:05:15 ERROR [auth] Invalid password for user 'admin' from 192.168.1.50
+2026-11-10 08:05:18 ERROR [auth] Account lockout triggered for IP 192.168.1.50
+2026-11-10 08:10:06 ERROR [api] Unhandled exception in /api/v1/login from 192.168.1.50
+2026-11-10 08:14:19 ERROR [db] Connection timeout while processing request from 192.168.1.50
+2026-11-10 08:14:20 ERROR [api] HTTP 500 Internal Server Error returned to 192.168.1.50

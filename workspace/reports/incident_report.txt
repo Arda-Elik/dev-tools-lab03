@@ -1,0 +1,8 @@
+=== INCIDENT REPORT ===
+20
+Total ERROR lines:
+6
+Top 3 client IPs by request count:
+      8 192.168.1.50
+      5 10.0.0.12
+      3 172.16.0.5
